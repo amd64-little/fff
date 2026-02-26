@@ -167,8 +167,6 @@ Ctrl+C: exit without 'cd'.
 
 `FFF_CONFIG` can be added to your `bashrc` (or other shell's configuration files). Everything put in `FFF_CONFIG` file will be sourced globally meaning that e.g. Neovim's terminal will have these settings.
 
-Personal note (can be unreproducible for your): I'm not sure why the only option (maybe there are others) not working in config file is `FFF_HIDDEN` which only works, when fff is run inside terminal manually.
-
 ```sh
 # Show/Hide hidden files on open.
 # (Off by default)
